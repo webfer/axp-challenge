@@ -9,9 +9,11 @@ const { REACT_APP_GOOGLE_MAP_API } = process.env;
 const App = ({ isScriptLoaded, isScriptLoadSucceed }: AppProps) => {
   if (isScriptLoaded && isScriptLoadSucceed) {
     return (
-      <Provider store={store}>
-        <Home />
-      </Provider>
+      <div data-testid="home-page">
+        <Provider store={store}>
+          <Home />
+        </Provider>
+      </div>
     );
   } else {
     return <div></div>;

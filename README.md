@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### 🚧 **This project just works based on Google Maps API key**:
 
 * Before starting, clone the repository o download it to the local machine.
-* In the project directory, locate the `.env` file and replace the value of the environment variable `YOUR_OWN_GOOGLE_API_KEY` with your own Google Api Key
+* In the project directory, locate the `.env` file and replace the environment variable value `YOUR_OWN_GOOGLE_API_KEY` with your own Google Api Key
 * 🔜 
 <br>
 <br>

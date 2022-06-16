@@ -1,0 +1,67 @@
+[root] {
+  --reach-combobox:1;
+}
+
+.pac-container {
+  border: none;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 0px -2px, rgba(0, 0, 0, 0.3) 0px 3px 0 -3px;
+  background: rgba(255, 255, 255, 0.99);
+  font-size: 85%;
+  z-index: 99;
+
+  li:before {
+    width: 15px;
+    height: 20px;
+    margin-right: 7px;
+    margin-top: 6px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);
+    background-size: 34px;
+    content: '';
+    position: relative;
+    background-position: -1px -161px;
+  }
+}
+
+[data-reach-combobox-list] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+[data-reach-combobox-option] {
+  cursor: pointer;
+  margin: 0;
+  padding: 0.25rem 0.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 30px;
+  text-align: left;
+  border-top: 1px solid #e6e6e6;
+
+  &[aria-selected="true"] {
+    background: #f1f2f4;
+  }
+
+  &:hover {
+    background: #e9ebed;
+  }
+
+  &[aria-selected="true"]:hover {
+    background: #e3e5e8;
+  }
+}
+
+[data-user-value] {
+  font-weight: bold;
+}
+
+/***/
+
+.gm-fullscreen-control {
+  top: 35px !important;
+}

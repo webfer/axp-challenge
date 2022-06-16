@@ -19,7 +19,7 @@ const Map = () => {
         }}
         mapContainerStyle={{ width: '100%', height: '100%' }}
         center={currentMarkerPosition}
-        zoom={15}
+        zoom={13}
       >
         <MapMarkers markersList={markersList} />
         {/* <InfoWindowMaps markersList={markersList} /> */}

@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <p align="center">
 
-<img src="src/assets/logo-cra.svg" width="350">
+<img src="src/assets/vanc.png" width="500">
 
 </p>
 

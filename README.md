@@ -10,7 +10,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 </p>
 
-### 🚧 **This project just works based on Google Maps API key**:
+### 🚧 **Important!!** 
+This project just works based on Google Maps API key:
 
 * Before starting, clone the repository o download it to the local machine.
 * In the project directory, locate the `.env` file and replace the environment variable value `YOUR_OWN_GOOGLE_API_KEY` with your own Google Api Key
@@ -24,7 +25,6 @@ In the project directory, you can run:
 ```  
 npm install 
 ```
- 
 
 ## Available Scripts
 
@@ -45,7 +45,8 @@ npm test
 ```
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project has a simple test on the `Header.tsx` component and `App.tsx`  component.\
+It is just an example of testing on a React project.
 
 ```
 npm run build
@@ -57,7 +58,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ```
 npm run eject

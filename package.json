@@ -2,6 +2,7 @@
   "name": "react-google-search-autocomplete-solution",
   "version": "0.1.0",
   "private": true,
+  "author": "Fernando A. Castro",
   "dependencies": {
     "@reach/combobox": "^0.16.5",
     "@react-google-maps/api": "^2.7.0",

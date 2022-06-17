@@ -4,6 +4,8 @@ import vector from '../assets/pin.svg';
 import '../styles/LabelMarker.scss';
 import { PrintMarkersProps } from '../interfaces/interface';
 
+
+// Marker component 
 const MapMarkers: React.FC<PrintMarkersProps> = ({ markersList }) => {
   const items: JSX.Element[] = [];
   markersList.map(async (marker: MarkerListProps, key: any) => {

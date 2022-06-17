@@ -16,3 +16,5 @@ export interface MarkerListProps {
   lng: number;
   locationName: string;
 }
+
+export  interface SearchProps {}

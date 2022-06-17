@@ -6461,6 +6461,11 @@
     "pretty-format" "^28.1.1"
     "semver" "^7.3.5"
 
+"jest-transform-stub@^2.0.0":
+  "integrity" "sha512-lspHaCRx/mBbnm3h4uMMS3R5aZzMwyNpNIJLXj4cEsV0mIUtS4IjYJLSoyjRCtnxb6RIGJ4NL2quZzfIeNhbkg=="
+  "resolved" "https://registry.npmjs.org/jest-transform-stub/-/jest-transform-stub-2.0.0.tgz"
+  "version" "2.0.0"
+
 "jest-util@^27.5.1":
   "integrity" "sha512-Kv2o/8jNvX1MQ0KGtw480E/w4fBCDOnH6+6DmeKi6LZUIlKA5kwY0YNdlzaWTiVgxqAqik11QyxDOKk543aKXw=="
   "resolved" "https://registry.npmjs.org/jest-util/-/jest-util-27.5.1.tgz"

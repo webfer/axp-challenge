@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from '../theme/Media';
 
 export const HeaderStyled = styled.header`
-  background: hsl(0, 0%, 90%);
+  background: hsl(217deg 100% 89%);
   border-bottom: 1px solid #acacac;
 `;
 

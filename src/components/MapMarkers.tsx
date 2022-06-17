@@ -1,11 +1,8 @@
 import { Marker } from '@react-google-maps/api';
-import { MarkerListProps } from './Search';
+import { MarkerListProps } from '../interfaces/interface';
 import vector from '../assets/pin.svg';
 import '../styles/LabelMarker.scss';
-
-interface PrintMarkersProps {
-  markersList: any;
-}
+import { PrintMarkersProps } from '../interfaces/interface';
 
 const MapMarkers: React.FC<PrintMarkersProps> = ({ markersList }) => {
   const items: JSX.Element[] = [];

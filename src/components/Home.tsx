@@ -3,7 +3,6 @@ import Search from './Search';
 import Map from './Map';
 import { SearchBox, Maps } from '../styles/Main.styled';
 import Header from './Header';
-//import './mapScreen.scss';
 
 const Home = () => {
   const googleApiKey: string = process.env.REACT_APP_GOOGLE_MAP_API || '';
@@ -17,7 +16,7 @@ const Home = () => {
     <Maps>
       {isLoaded && (
         <>
-          <Header />
+          { <Header title="Google Search Autocomplete" /> }
           <SearchBox>
             <Search />
           </SearchBox>

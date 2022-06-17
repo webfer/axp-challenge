@@ -9,16 +9,11 @@ import {
 import { useDispatch } from 'react-redux';
 import { addMarkerList, saveCurrentSearch } from '../actions/markers';
 import { getLatAndLng } from '../helpers/getLatAndLng';
+import { MarkerListProps } from '../interfaces/interface';
 
 import '../styles/Global.scss';
 
 interface SearchProps {}
-
-export interface MarkerListProps {
-  lat: number;
-  lng: number;
-  locationName: string;
-}
 
 const Search: React.FC<SearchProps> = () => {
   const dispatch = useDispatch();
